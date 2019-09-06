@@ -32,9 +32,8 @@ SELECT person FROM person WHERE age > 20;
 7.
 SELECT person FROM person WHERE age = 18;
 
-8.
-SELECT person FROM person WHERE age < 20;
-SELECT person FROM person WHERE age > 30;
+8.-- 😐
+SELECT person FROM person WHERE age < 20 AND age >30;
 
 9.
 SELECT person FROM person WHERE age != 27;
